@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.net.URL;
 import com.appium.ConfigurationAppium;
 
-public class AbrirNoti {
+public class OpenNotifications {
     public static void main(String[] args) throws InterruptedException, IOException {
 
         AndroidDriver<AndroidElement> driver = AndroidDriverManager.getDriver();
